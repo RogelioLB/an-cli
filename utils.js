@@ -10,7 +10,6 @@ const getBrowser = () => browser;
 const getHtml = async(url) =>{
     const page = await browser.newPage();
     const response = await page.goto(url,{waitUntil:"networkidle2"});
-    await page.screenshot({path:"imagen.png"})
     const body = await response.text();
     return body;
 }

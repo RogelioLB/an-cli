@@ -1,6 +1,5 @@
 #! /usr/bin/node
 const inquirer = require("inquirer");
-const yargs = require("yargs");
 const cp = require("child_process")
 const ch = require("cheerio");
 const {getBrowser,getHtml, getLastIframe} = require("./utils");
