@@ -14,8 +14,8 @@ npm install -g an-cli
 ```bash
 an
 ```
-![Ejemplo]("/assets/example.png")
+![Ejemplo](/assets/example.png)
 
-![View]("/assets/view.png")
+![View](/assets/view.png)
 
 
